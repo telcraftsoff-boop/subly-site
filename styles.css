@@ -228,14 +228,6 @@ section[id] { scroll-margin-top: 90px; }
   color: var(--cream);
   max-width: 30ch;
 }
-.quote cite {
-  display: block;
-  margin-top: 28px;
-  font-style: normal;
-  font-size: 16px;
-  letter-spacing: 0.04em;
-  color: rgba(247, 243, 238, 0.66);
-}
 
 /* Full width picture band ------------------------------------------------ */
 
@@ -322,40 +314,6 @@ section[id] { scroll-margin-top: 90px; }
 }
 
 .steps p { font-size: 18px; line-height: 1.6; color: rgba(247, 243, 238, 0.88); max-width: 34ch; }
-
-/* Proof slots ------------------------------------------------------------ */
-
-.proof-grid {
-  list-style: none;
-  margin: clamp(28px, 3vw, 44px) 0 0;
-  padding: 0;
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-}
-
-.proof-grid li {
-  background: #fff;
-  border: 1px solid rgba(15, 15, 15, 0.07);
-  border-radius: 16px;
-  padding: 28px;
-}
-
-.proof-label {
-  display: block;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: rgba(15, 15, 15, 0.5);
-  margin-bottom: 12px;
-}
-
-.proof-value {
-  font-family: "Space Grotesk", Inter, sans-serif;
-  font-size: clamp(20px, 2vw, 26px);
-  color: var(--ink);
-}
 
 /* About ------------------------------------------------------------------ */
 
